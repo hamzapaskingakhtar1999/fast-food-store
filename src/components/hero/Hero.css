@@ -1,0 +1,132 @@
+
+
+.hero-container {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 10px 10px;
+margin: 25px;
+height: 100%;
+overflow: hidden;
+border-radius: 40px;
+background-color: #c5ead9c8;
+}
+
+.hero-left {
+    flex: 1.5;
+    padding: 10px 20px 10px 70px;
+}
+
+.hero-left-title-h1 {
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.hero-left-title-h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #29A56C;
+}
+
+.hero-left-subtitle-h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #29A56C;
+    margin-bottom: 55px;
+    
+}
+
+.hero-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.view-menu-btn {
+    background-color: #29A56C;
+    color: white;
+    font-size: 22px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.view-menu-btn:hover {
+    transform: scale(1.05);
+}
+
+.view-deals-btn {
+    border: 1px solid #29A56C;
+    color: black;
+    font-size: 22px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.view-deals-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Right Side */
+
+.hero-right {
+    flex: 2;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.hero-image {
+    height: 400px;
+    width: 700px;
+    margin: auto;
+}
+
+a {
+    all:unset;
+}
+
+@media screen and (max-width:1024px) {
+
+    .hero-container {
+        flex-direction: column-reverse;
+        height: max-content;
+        padding: 0;
+    }
+    .hero-left {
+        padding: 20px 40px
+    }
+
+    
+
+    .hero-right > img {
+        height: 250px;
+        width: 100%;
+    }
+    .hero-left-title-h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .hero-left-title-h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    
+.hero-left-subtitle-h2 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.hero-buttons {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: -45px;
+}
+}

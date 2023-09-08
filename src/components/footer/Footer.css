@@ -1,0 +1,44 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.footer1,.footer2, .footer3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-icon {
+    font-size: 32px;
+}
+.footer-item {
+display: flex;
+align-items: center;
+gap: 15px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:768px){
+    .footer {
+        flex-direction:column;
+        justify-content: center;
+        margin: auto;
+        padding: 30px;
+    }
+}

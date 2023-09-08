@@ -1,0 +1,72 @@
+.contact {
+    max-width: 90%;
+    margin: auto;
+}
+
+.contact-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.contact-text {
+    font-size: 20px;
+}
+
+.contact-input {
+    padding: 20px 25px;
+    border: 1px solid rgba(128, 128, 128, 0.495);
+    margin:15px 15px 15px 1px;
+    font-size: 18px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.contact-input:active, .contact-input:focus {
+    outline: 1px solid green;
+    border: none;
+
+}
+.contact-textarea {
+    resize: vertical;
+}
+
+.contact-left {
+    flex: 1;
+    margin-right: 25px;
+}
+
+.contact-right {
+    flex: 3;
+    margin: auto;
+}
+
+.contact-us-image {
+    height: 600px;
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+
+input[type="submit"] {
+    color: white;
+    border: none;
+    background-color: #253D4E;
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+@media screen and (max-width:768px) {
+    .contact{
+        flex-direction: column;
+    }
+
+    .contact-input {
+        width: 15rem;
+    }
+    .contact-right {
+        display: none;
+    }
+}

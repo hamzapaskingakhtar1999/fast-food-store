@@ -1,0 +1,65 @@
+.about {
+    margin: auto;
+}
+
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 30px 50px;
+    overflow: hidden;
+}
+
+.about-left {
+    flex:1;
+    }
+
+.about-right {
+    flex: 2;
+    }
+    
+
+.about-left > img {
+    border-radius: 10px;
+    height: 40rem;
+    width: 40rem;
+}
+
+.about-paragraph {
+    line-height: 1.9;
+}
+
+.about-right-container {
+    width: 80%;
+    margin: auto;
+}
+
+
+/* About OUR, Who we are, Our History, Our Mission */
+
+@media screen and (max-width:768px) {
+
+    .about{
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 10px;
+    }
+    .about-left > img {
+        height: 20rem;
+        width: 20rem;
+    }
+    .about-right-container {
+        width: 100%;
+    }
+    .about-our {
+        flex-direction: column;
+       
+    }
+    .about-our-item {
+        width: 100%;
+        margin: auto;
+    }
+}

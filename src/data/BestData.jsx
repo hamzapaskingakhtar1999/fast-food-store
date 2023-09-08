@@ -1,0 +1,38 @@
+export const BestData = [
+  {
+    deal: true,
+    img: "https://ubrand.co.il/wp-content/uploads/2021/03/zinger3.png",
+    category: "Burger",
+    name: "Chicken Zinger Burger",
+    rating: "",
+    price: "28.85",
+    crossedprice: "32.50",
+  },
+  {
+    deal: true,
+    img: "https://img.freepik.com/premium-photo/fresh-pizza-with-mushroom-chicken-cheese-isolated-white-background-copyspace-top-view_160320-66.jpg?w=2000",
+    name: "Chicken Tikka Pizza",
+    category: "Pizza",
+    rating: "",
+    price: "38.85",
+    crossedprice: "42.50",
+  },
+  {
+    deal: true,
+    img: "https://img.freepik.com/premium-photo/roasted-beef-steaks-isolated-white-background_185193-73946.jpg",
+    name: "Beef Steak",
+    category: "Steak",
+    rating: "",
+    price: "90.85",
+    crossedprice: "100.50",
+  },
+  {
+    deal: true,
+    img: "https://images.deliveryhero.io/image/fd-pk/LH/z1mf-hero.jpg",
+    name: "Anda Shami Burger",
+    category: "Burger",
+    rating: "",
+    price: "28.85",
+    crossedprice: "32.50",
+  },
+];

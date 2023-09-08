@@ -1,0 +1,58 @@
+.slick-slide > div {
+    margin: 0 45px;
+  }
+  .slick-list {
+    margin: 0 -45px;
+  }
+
+
+
+.best {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.best-left {
+    flex: 0.5;
+    margin: auto;
+}
+
+/* .best-image {
+    align-items: center;
+} */
+.best-right {
+    flex: 2;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.best-items {
+    display: flex;
+    gap: 200px;
+}
+
+.best-image {
+    height: 500px;
+
+}
+
+.best-block {
+    display: block;
+}
+
+/* Media */
+
+@media screen and (max-width:768px) {
+    .best {
+        flex-direction: column;
+    }
+    .best-right {
+        display: none;
+    }
+}
